@@ -3,8 +3,8 @@
 set -Eeuo pipefail
 
 if [ $# -ne 1 ]; then
-        echo "Usage: $0 <url>"
-        exit 1
+    echo "Usage: $0 <url>"
+    exit 1
 fi
 
 dirname=$(basename "$1" .git)
